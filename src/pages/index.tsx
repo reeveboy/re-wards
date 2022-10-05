@@ -236,7 +236,7 @@ const Home: NextPage = () => {
 
         <p className="p-4"></p>
 
-        <div id="general-rules" className="flex flex-col md:w-3/4">
+        <div id="general-rules" className="flex flex-col md:w-3/4 p-2">
           <div className="text-3xl text-center font-bold">General Rules</div>
           {rules.map((rule, index) => (
             <div
@@ -251,7 +251,7 @@ const Home: NextPage = () => {
 
         <p className="p-4"></p>
 
-        <div id="how-it-works" className="flex flex-col md:w-3/4">
+        <div id="how-it-works" className="flex flex-col md:w-3/4 p-2">
           <div className="text-3xl text-center font-bold">How it Works</div>
           {works.map((rule, index) => (
             <div
