@@ -198,7 +198,7 @@ const Home: NextPage = () => {
       </Head>
 
       <div className="flex flex-col w-full items-center">
-        <div className="w-full sticky top-0 left-0 flex justify-center text-xl bg-[#5f27cd] font-bold text-[#FBEAFF] p-4">
+        <div className="z-10 w-full sticky top-0 left-0 flex justify-center text-xl bg-[#5f27cd] font-bold text-[#FBEAFF] p-4">
           <button onClick={() => scrollIntoView("general-rules")}>
             General Rules
           </button>
@@ -219,7 +219,20 @@ const Home: NextPage = () => {
           src="poster.jpg"
           alt=""
         />
-        <a href="https://forms.gle/BiKana9iDvcbVarw9">Registration Link</a>
+        <p className="p-4"></p>
+        <div className="flex flex-col justify-center items-center">
+          <div className="text-3xl text-center font-bold">
+            Re-Wards registration
+          </div>
+          <div className="text-xl text-center">
+            Please do register by the 8th of October!
+          </div>
+          <a
+            className="flex text-xl"
+            href="https://forms.gle/BiKana9iDvcbVarw9">
+            Click here! <img src="register.png" height={30} width={30} alt="" />
+          </a>
+        </div>
 
         <p className="p-4"></p>
 
@@ -251,10 +264,10 @@ const Home: NextPage = () => {
           ))}
         </div>
 
-        <p className="p-2"></p>
+        <p className="md:p-2"></p>
 
-        <div className="overflow-x-auto shadow-md sm:rounded-lg">
-          <table className="w-full text-sm text-left text-gray-500 ">
+        <div className="overflow-x-auto scale-[0.6] md:scale-100  shadow-md sm:rounded-lg">
+          <table className="text-sm text-left text-gray-500 ">
             <thead className="text-xs text-gray-700 uppercase bg-[#FFE1F9]">
               <tr>
                 <th scope="col" className="py-3 px-6">
@@ -354,7 +367,7 @@ const Home: NextPage = () => {
           </table>
         </div>
 
-        <p className="p-4"></p>
+        <p className="md:p-4"></p>
 
         <div id="games" className="flex flex-col w-3/4">
           <div className="text-3xl text-center font-bold">Games</div>
