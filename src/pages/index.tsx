@@ -198,7 +198,7 @@ const Home: NextPage = () => {
       </Head>
 
       <div className="flex flex-col w-full items-center">
-        <div className="z-10 w-full sticky top-0 left-0 flex justify-center text-xl bg-[#5f27cd] font-bold text-[#FBEAFF] p-4">
+        <div className="z-10 w-full sticky top-0 left-0 flex justify-center text-xs md:text-xl bg-[#5f27cd] font-bold text-[#FBEAFF] p-1 md:p-4">
           <button onClick={() => scrollIntoView("general-rules")}>
             General Rules
           </button>
