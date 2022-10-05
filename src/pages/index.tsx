@@ -249,107 +249,109 @@ const Home: NextPage = () => {
               <div>{rule}</div>
             </div>
           ))}
-          <p className="p-2"></p>
-          <div className="overflow-x-auto shadow-md sm:rounded-lg">
-            <table className="w-full text-sm text-left text-gray-500 ">
-              <thead className="text-xs text-gray-700 uppercase bg-[#FFE1F9]">
-                <tr>
-                  <th scope="col" className="py-3 px-6">
-                    Trophy Event
-                  </th>
-                  <th scope="col" className="py-3 px-6">
-                    Wager
-                  </th>
-                  <th scope="col" className="py-3 px-6">
-                    Medal Event
-                  </th>
-                  <th scope="col" className="py-3 px-6">
-                    Wager
-                  </th>
-                  <th scope="col" className="py-3 px-6">
-                    Batton Event
-                  </th>
-                  <th scope="col" className="py-3 px-6">
-                    Game Points
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="bg-[#FFE8FF] border-b hover:bg-[#FFE1F9]">
-                  <th
-                    scope="row"
-                    className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
-                    Control Cricket
-                  </th>
-                  <td className="py-4 px-6">50</td>
-                  <td className="py-4 px-6">Susegad Race</td>
-                  <td className="py-4 px-6">20</td>
-                  <td className="py-4 px-6">Fancy dress</td>
-                  <td className="py-4 px-6">30/20</td>
-                </tr>
-                <tr className="bg-[#FFE8FF] border-b hover:bg-[#FFE1F9]">
-                  <th
-                    scope="row"
-                    className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
-                    Football
-                  </th>
-                  <td className="py-4 px-6">60</td>
-                  <td className="py-4 px-6">Tie Breaker</td>
-                  <td className="py-4 px-6">30</td>
-                  <td className="py-4 px-6">Quiz</td>
-                  <td className="py-4 px-6">30/20</td>
-                </tr>
-                <tr className="bg-[#FFE8FF] border-b hover:bg-[#FFE1F9]">
-                  <th
-                    scope="row"
-                    className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
-                    Catch N Kill
-                  </th>
-                  <td className="py-4 px-6">30</td>
-                  <td className="py-4 px-6">Sprint</td>
-                  <td className="py-4 px-6">40</td>
-                  <td className="py-4 px-6">Garage Band</td>
-                  <td className="py-4 px-6">30/20</td>
-                </tr>
-                <tr className="bg-[#FFE8FF] border-b hover:bg-[#FFE1F9]">
-                  <th
-                    scope="row"
-                    className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
-                    Caterpillar race
-                  </th>
-                  <td className="py-4 px-6">20</td>
-                  <td className="py-4 px-6">Sumo Wrestling</td>
-                  <td className="py-4 px-6">50</td>
-                  <td className="py-4 px-6"></td>
-                  <td className="py-4 px-6"></td>
-                </tr>
-                <tr className="bg-[#FFE8FF] border-b hover:bg-[#FFE1F9]">
-                  <th
-                    scope="row"
-                    className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
-                    Cycle race
-                  </th>
-                  <td className="py-4 px-6">40</td>
-                  <td className="py-4 px-6">Tug of War </td>
-                  <td className="py-4 px-6">60</td>
-                  <td className="py-4 px-6"></td>
-                  <td className="py-4 px-6"></td>
-                </tr>
-                <tr className="bg-[#FFE8FF] border-b hover:bg-[#FFE1F9]">
-                  <th
-                    scope="row"
-                    className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
-                    Strong man circuit
-                  </th>
-                  <td className="py-4 px-6">70</td>
-                  <td className="py-4 px-6"></td>
-                  <td className="py-4 px-6"></td>
-                  <td className="py-4 px-6"></td>
-                  <td className="py-4 px-6"></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+        </div>
+
+        <p className="p-2"></p>
+
+        <div className="overflow-x-auto shadow-md sm:rounded-lg">
+          <table className="w-full text-sm text-left text-gray-500 ">
+            <thead className="text-xs text-gray-700 uppercase bg-[#FFE1F9]">
+              <tr>
+                <th scope="col" className="py-3 px-6">
+                  Trophy Event
+                </th>
+                <th scope="col" className="py-3 px-6">
+                  Wager
+                </th>
+                <th scope="col" className="py-3 px-6">
+                  Medal Event
+                </th>
+                <th scope="col" className="py-3 px-6">
+                  Wager
+                </th>
+                <th scope="col" className="py-3 px-6">
+                  Batton Event
+                </th>
+                <th scope="col" className="py-3 px-6">
+                  Game Points
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="bg-[#FFE8FF] border-b hover:bg-[#FFE1F9]">
+                <th
+                  scope="row"
+                  className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
+                  Control Cricket
+                </th>
+                <td className="py-4 px-6">50</td>
+                <td className="py-4 px-6">Susegad Race</td>
+                <td className="py-4 px-6">20</td>
+                <td className="py-4 px-6">Fancy dress</td>
+                <td className="py-4 px-6">30/20</td>
+              </tr>
+              <tr className="bg-[#FFE8FF] border-b hover:bg-[#FFE1F9]">
+                <th
+                  scope="row"
+                  className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
+                  Football
+                </th>
+                <td className="py-4 px-6">60</td>
+                <td className="py-4 px-6">Tie Breaker</td>
+                <td className="py-4 px-6">30</td>
+                <td className="py-4 px-6">Quiz</td>
+                <td className="py-4 px-6">30/20</td>
+              </tr>
+              <tr className="bg-[#FFE8FF] border-b hover:bg-[#FFE1F9]">
+                <th
+                  scope="row"
+                  className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
+                  Catch N Kill
+                </th>
+                <td className="py-4 px-6">30</td>
+                <td className="py-4 px-6">Sprint</td>
+                <td className="py-4 px-6">40</td>
+                <td className="py-4 px-6">Garage Band</td>
+                <td className="py-4 px-6">30/20</td>
+              </tr>
+              <tr className="bg-[#FFE8FF] border-b hover:bg-[#FFE1F9]">
+                <th
+                  scope="row"
+                  className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
+                  Caterpillar race
+                </th>
+                <td className="py-4 px-6">20</td>
+                <td className="py-4 px-6">Sumo Wrestling</td>
+                <td className="py-4 px-6">50</td>
+                <td className="py-4 px-6"></td>
+                <td className="py-4 px-6"></td>
+              </tr>
+              <tr className="bg-[#FFE8FF] border-b hover:bg-[#FFE1F9]">
+                <th
+                  scope="row"
+                  className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
+                  Cycle race
+                </th>
+                <td className="py-4 px-6">40</td>
+                <td className="py-4 px-6">Tug of War </td>
+                <td className="py-4 px-6">60</td>
+                <td className="py-4 px-6"></td>
+                <td className="py-4 px-6"></td>
+              </tr>
+              <tr className="bg-[#FFE8FF] border-b hover:bg-[#FFE1F9]">
+                <th
+                  scope="row"
+                  className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
+                  Strong man circuit
+                </th>
+                <td className="py-4 px-6">70</td>
+                <td className="py-4 px-6"></td>
+                <td className="py-4 px-6"></td>
+                <td className="py-4 px-6"></td>
+                <td className="py-4 px-6"></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
 
         <p className="p-4"></p>
