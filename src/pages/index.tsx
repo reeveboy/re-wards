@@ -210,6 +210,10 @@ const Home: NextPage = () => {
           </button>
           <p className="p-4"></p>
           <button onClick={() => scrollIntoView("games")}>Games</button>
+          <p className="p-4"></p>
+          <button onClick={() => scrollIntoView("contact")}>
+            Contact Info
+          </button>
         </div>
 
         <p className="p-4"></p>
@@ -378,7 +382,7 @@ const Home: NextPage = () => {
             {games.map((game, index) => (
               <div
                 key={index}
-                className="flex flex-col bg-[#FFE1F9] max-w-lg max-h-fit p-4 rounded-lg text-lg">
+                className="flex flex-col shadow-md bg-[#FFE1F9] max-w-lg max-h-fit p-4 rounded-lg text-lg">
                 <div className="flex flex-col text-xl">
                   <div className="font-bold">
                     {game?.name} {game?.openCategory ? "(OPEN CATEGORY)" : ""}
@@ -401,6 +405,46 @@ const Home: NextPage = () => {
             ))}
           </div>
         </div>
+
+        <p className="p-4"></p>
+
+        <div id="contact" className="flex flex-col w-3/4 items-center">
+          <div className="text-3xl text-center font-bold">Contact Info</div>
+          <p className="p-2"></p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-16">
+            <div className="flex flex-col justify-center items-center">
+              <div className="text-lg font-bold">Fr. Valentine Alvares</div>
+              <div className="font-light">Youth Animator</div>
+              <a href="tel:+917798440120">+91 7798440120</a>
+            </div>
+            <div className="flex flex-col justify-center items-center">
+              <div className="text-lg font-bold">Joshua Dias</div>
+              <div className="font-light">Co-ordinator</div>
+              <a href="tel:+919011352983">+91 9011352983</a>
+              <div></div>
+            </div>
+            <div className="flex flex-col justify-center items-center">
+              <div className="text-lg font-bold">Gloria Carneiro</div>
+              <div className="font-light">Vice Co-ordinator</div>
+              <a href="tel:+917588443205">+91 7588443205</a>
+            </div>
+            <div className="flex flex-col justify-center items-center">
+              <div className="text-lg font-bold">Dylan Rodrigues</div>
+              <div className="font-light">Cultural Secretary</div>
+              <a href="tel:+919923952202">+91 9923952202</a>
+              <div></div>
+            </div>
+            <div className="hidden md:block"></div>
+            <div className="flex flex-col justify-center items-center">
+              <div className="text-lg font-bold">Elton John</div>
+              <div className="font-light">Treasurer</div>
+              <a href="tel:+917350866530">+91 7350866530</a>
+              <div></div>
+            </div>
+          </div>
+        </div>
+
         <p className="p-4"></p>
       </div>
     </>
