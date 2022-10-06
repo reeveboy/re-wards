@@ -43,6 +43,7 @@ const games: game[] = [
       "Common bat and ball will be provided.",
       "Personal equipment will be allowed, but no responsibility will be taken if goods are damaged.",
       "Rules will be explained on the spot. ",
+      "Boys Only",
     ],
   },
   {
@@ -53,6 +54,7 @@ const games: game[] = [
       "7-a-side with maximum 4 substitutes.",
       "Total game time is 20 minutes (10 mis each half)",
       "Rolling of substitutes will be allowed.",
+      "Boys Only",
     ],
   },
   {
@@ -213,9 +215,9 @@ const Home: NextPage = () => {
         <p className="p-4"></p>
 
         <img
-          className="rounded"
-          height={300}
-          width={500}
+          className="rounded h-[300px] w-[500px] md:h-[400px] md:w-[600px]"
+          // height={300}
+          // width={500}
           src="poster.jpg"
           alt=""
         />
@@ -228,7 +230,7 @@ const Home: NextPage = () => {
             Please do register by the 12th of October!
           </div>
           <a
-            className="flex text-xl"
+            className="flex text-xl text-red-500 underline"
             href="https://forms.gle/BiKana9iDvcbVarw9">
             Click here! <img src="register.png" height={30} width={30} alt="" />
           </a>
@@ -297,7 +299,7 @@ const Home: NextPage = () => {
                   className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">
                   Control Cricket
                 </th>
-                <td className="py-4 px-6">50</td>
+                <td className="py-4 px-6 border-r">50</td>
                 <td className="py-4 px-6">Susegad Race</td>
                 <td className="py-4 px-6">20</td>
                 <td className="py-4 px-6">Fancy dress</td>
