@@ -225,7 +225,7 @@ const Home: NextPage = () => {
             Re-Wards registration
           </div>
           <div className="text-xl text-center">
-            Please do register by the 8th of October!
+            Please do register by the 12th of October!
           </div>
           <a
             className="flex text-xl"
