@@ -17,6 +17,7 @@ const rules = [
   "Criteria for Overall championship include participation in maximum number of events as well as the total scores obtained in the competitions.",
   "All details of the itinerary will be provided.",
   "Lunch will not be provided, but we have arranged famous food-stalls to satisfy your craving",
+  "No religion bound but should be from respective ward.",
 ];
 
 const works = [
