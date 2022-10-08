@@ -180,6 +180,17 @@ const games: game[] = [
   },
 ];
 
+const stalls = [
+  "Stalls to be allotted on first come first serve basis.",
+  "Interested members need to fill the form for stalls available on the website.",
+  "Entries need to be submitted to the Ward/Somudai leaders, who will then be required to submit the same to the Church office or Fr. Valentine at the earliest. ",
+  "Stalls can be set up at the designated places  from 9:00 am onwards on the day of the event.",
+  "The sale of alcohol is strictly prohibited.",
+  "Stall members must take care of their own goods, the organisers will not be accountable for the same.",
+  "Stall members are required to keep their surrounding  clean at all times and  are required to make proper provisions for waste disposal.",
+  "Before leaving  the place  stall members are to see that no waste material is left behind, and all waste is disposed off and the area is must be left clean.",
+];
+
 type game = {
   name: string;
   openCategory?: boolean;
@@ -405,6 +416,21 @@ const Home: NextPage = () => {
               </div>
             ))}
           </div>
+        </div>
+
+        <p className="md:p-4"></p>
+
+        <div id="stalls" className="flex flex-col md:w-3/4 p-2">
+          <div className="text-3xl text-center font-bold">Rules for Stalls</div>
+          {stalls.map((rule, index) => (
+            <div
+              className="flex text-sm md:text-lg mb-1 leading-relaxed"
+              key={index}>
+              <div>🦞</div>
+              <p className="p-1"></p>
+              <div>{rule}</div>
+            </div>
+          ))}
         </div>
 
         <p className="p-4"></p>
