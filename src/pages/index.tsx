@@ -237,7 +237,7 @@ const Home: NextPage = () => {
           src="poster.jpg"
           alt=""
         />
-        <p className="p-4"></p>
+        {/* <p className="p-4"></p>
         <div className="flex flex-col justify-center items-center">
           <div className="text-3xl text-center font-bold">
             Re-Wards registration
@@ -250,6 +250,21 @@ const Home: NextPage = () => {
             href="https://forms.gle/BiKana9iDvcbVarw9">
             Click here! <img src="register.png" height={30} width={30} alt="" />
           </a>
+        </div> */}
+
+        <p className="p-4"></p>
+        <div className="flex flex-col justify-center items-center">
+          <div className="text-3xl text-center font-bold text-red-500">
+            Re-Wards registration closed!
+          </div>
+          {/* <div className="text-xl text-center">
+            Please do register by the 12th of October!
+          </div>
+          <a
+            className="flex text-xl text-red-500 underline"
+            href="https://forms.gle/BiKana9iDvcbVarw9">
+            Click here! <img src="register.png" height={30} width={30} alt="" />
+          </a> */}
         </div>
 
         <p className="p-4"></p>
