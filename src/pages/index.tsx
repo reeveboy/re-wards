@@ -40,7 +40,7 @@ const games: game[] = [
     openCategory: true,
     type: "A",
     descripton: [
-      "The game will be of 4 overs with 7 players.",
+      "The game will be of 6 overs with 7 players.",
       "Common bat and ball will be provided.",
       "Personal equipment will be allowed, but no responsibility will be taken if goods are damaged.",
       "Rules will be explained on the spot. ",
@@ -53,7 +53,7 @@ const games: game[] = [
     type: "A",
     descripton: [
       "7-a-side with maximum 4 substitutes.",
-      "Total game time is 20 minutes (10 mis each half)",
+      "Total game time is 30 minutes (15 mis each half)",
       "Rolling of substitutes will be allowed.",
       "Boys Only",
     ],
@@ -163,7 +163,11 @@ const games: game[] = [
   {
     name: "QUIZ",
     type: "C",
-    descripton: ["Confirmation children only.", "4 participants per team."],
+    descripton: [
+      "Confirmation children only.",
+      "4 participants per team.",
+      "Age Lime: 14 - 16 years.",
+    ],
   },
   {
     name: "GARAGE BAND",
@@ -176,6 +180,7 @@ const games: game[] = [
       "Prepare a performance of 3.30 mins.",
       "No restrictions on song selection or choice of instruments. you have full creative freedom.",
       "No vulgar/profane language, or you will risk being disqualified.",
+      "Age group of participants should be between 16 - 30 years.",
     ],
   },
 ];
@@ -257,14 +262,6 @@ const Home: NextPage = () => {
           <div className="text-3xl text-center font-bold text-red-500">
             Re-Wards registration closed!
           </div>
-          {/* <div className="text-xl text-center">
-            Please do register by the 12th of October!
-          </div>
-          <a
-            className="flex text-xl text-red-500 underline"
-            href="https://forms.gle/BiKana9iDvcbVarw9">
-            Click here! <img src="register.png" height={30} width={30} alt="" />
-          </a> */}
         </div>
 
         <p className="p-4"></p>
