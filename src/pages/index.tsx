@@ -55,7 +55,7 @@ const games: game[] = [
       "7-a-side with maximum 4 substitutes.",
       "Total game time is 30 minutes (15 mis each half)",
       "Rolling of substitutes will be allowed.",
-      "Boys Only",
+      "Males Only",
     ],
   },
   {
