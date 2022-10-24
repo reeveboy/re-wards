@@ -137,7 +137,7 @@ const games: game[] = [
     openCategory: true,
     type: "B",
     descripton: [
-      "Girls Only",
+      "Females Only",
       "First Participant to score 3 points, wins.",
       "Rules will be explained on the spot.",
       "Wrestling suits will be provided.",
